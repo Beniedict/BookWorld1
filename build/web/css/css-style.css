@@ -1,0 +1,400 @@
+/* Base */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Navigation Bar */
+
+#nav-login, #nav-signup
+{
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#nav-login
+{
+    margin-right: 10px;
+}
+
+/* Header */
+
+#header
+{
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+
+#footer
+{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#contact
+{
+    color: #278b5d;
+}
+
+/* contact.jsp */
+
+#div-contact
+{
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+#img-contact1
+{
+    width: 175px;
+    border-radius: 10px;
+}
+
+#img-contact2
+{
+    width: 115px;
+}
+
+#div-bga
+{
+    text-align: center;
+    align-items: center;
+}
+
+#div-bga1
+{
+    background: #024064;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    color: white;
+    width: 442px;
+}
+
+#div-bga2
+{
+    background: #024064;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    color: white;
+}
+
+#h1-cname
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#h1-name
+{
+    font-size: 20px;
+}
+
+#h1-contact, #h1-prod
+{
+    font-size: 20px;
+}
+
+#btn-buy
+{
+    padding: 28px 10px 28px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: gray;
+    width: 442px;
+}
+
+#btn-buy:hover
+{
+    background: #64bb6a;
+    color: white;
+    transition: 0.5s;
+}
+
+/* error.jsp */
+
+/* guest.jsp */
+
+#welcome-message
+{
+    margin-top: 45px;
+    background: radial-gradient(at center, #64bb6a, #3cb3c0, #024064, #37782c);
+    background-size: 200% 200%;
+    animation: gradient 12s ease infinite;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#card
+{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* login.jsp */
+
+/* signup.jsp */
+
+/* reguser.jsp */
+
+/* cart.jsp */
+
+#div-cart
+{
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 60%;
+}
+
+#h1-cart
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+#row-cart
+{
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+table, tr, td
+{
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+#h2-book
+{
+    font-size: 18px;
+}
+
+#h2-price
+{
+    font-size: 18px;
+}
+
+#h2-itemno
+{
+    font-size: 18px;
+}
+
+#img-bcart
+{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#input-select, #input-delete
+{
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: crimson;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+#button-paynow
+{
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    width: 95%;
+    padding: 10px 0px 10px 0px;
+}
+
+#div-cartp
+{
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+#h2-cartp
+{
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* admin.jsp */
+
+.py-5
+{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.d-flex
+{
+    text-decoration: none;
+}
+
+#h1-prodlist
+{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+/* product.jsp, product_update.jsp, product_add.jsp*/
+
+#btn-save
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: gray;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+#btn-save:hover
+{
+    background: #64bb6a;
+    color: white;
+    transition: 0.5s;
+}
+
+#img-thumbnail
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 10px;
+}
+
+#h1-pdetail
+{
+    font-size: 20px;
+}
+
+/* reports.jsp */
+
+#div-reports
+{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#div-reportcol
+{
+    font-size: 20px;
+    margin: 15px 20px 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+#list
+{
+    font-size: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 10px;
+    width: 85%;
+    padding: 5px 5px 5px 5px;
+}
+
+#btn-list
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: gray;
+    width: 85%;
+    padding: 10px 0px 10px 0px;  
+}
+
+#btn-list:hover
+{
+    background: #64bb6a;
+    color: white;
+    transition: 0.5s;
+}
+
+label[for=list]
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #024064;
+    width: 85%;
+    padding: 10px 0px 10px 0px; 
+}
+
+#input-prodamnt
+{
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    width: 145px;
+}
+
+/* payment.jsp */
+
+/* orderhist.jsp */
+
+/* refund.jsp */
